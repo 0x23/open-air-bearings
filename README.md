@@ -1,5 +1,5 @@
-![Logo](open_air_bearings_logo_dark.png)
-# Open Air Bearings
+![Logo](open_air_bearings_logo.jpg)
+
 Welcome to the Open Air Bearings repository! This repository provides techniques and simulation software for air bearings. Open air bearings are mechanical devices that support components using a thin film of air, eliminating the need for solid contact and reducing friction to almost zero.
 
 # Simulation for planar air bearing pads
