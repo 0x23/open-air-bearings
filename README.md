@@ -4,7 +4,7 @@ Welcome to the Open Air Bearings repository! This repository provides techniques
 
 Here you can see a working prototype in action:
 
-![Open Air Bearings Demo 1](https://img.youtube.com/vi/c7A6QDj5Lbw/0.jpg)](https://www.youtube.com/watch?v=c7A6QDj5Lbw)
+[![Open Air Bearings Demo 1](https://img.youtube.com/vi/c7A6QDj5Lbw/0.jpg)](https://www.youtube.com/watch?v=c7A6QDj5Lbw)
 
 # Simulation for planar air bearing pads
 
