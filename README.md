@@ -9,10 +9,22 @@ The simulation folder contains a small and simple python programs to simulate pl
 3. The relative flow rates under the air bearing pad as a false color image
 4. A animated gif of the pressure distribution for varying gap heights
 
-![Simulation output 1-3](simulation/example/summary_design1h_38x18_60u.png)
-![Simulation output 4](simulation/example/pressure_design1h_38x18_60u.gif)
+The simulation uses a simple pipe network model were neighbouring pixels are connected via pipes with flow rate resitrictions derived from the input design. A solution is then computed by solving the associated poisson equation.
+
+Pressure distribution animiation:
+![Simulation output 2](simulation/example/pressure_design1h_38x18_60u.gif)
+
+Pressure distribution, lift relative flow, lift force plot:
+![Simulation output 1](simulation/example/summary_design1h_38x18_60u.png)
+
 
 # DIY Glas Airbearing pads
 
 coming soon...
+
+# Ways to contribute ?
+
+1. Try it out the simulator or build yourself some air bearings and give feedback
+2. If you know fluid mechanics, please check the simulation for correctness
+3. Write documentation and tutrials that explain hte usage of the simulation
 
