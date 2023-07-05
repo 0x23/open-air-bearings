@@ -3,7 +3,8 @@
 Welcome to the Open Air Bearings repository! This repository provides techniques and simulation software for air bearings. Open air bearings are mechanical devices that support components using a thin film of air, eliminating the need for solid contact and reducing friction to almost zero.
 
 Here you can see a working prototype in action:
-[![Open Air Bearings Demo 1](https://img.youtube.com/vi/c7A6QDj5Lbw/0.jpg)](https://www.youtube.com/watch?v=c7A6QDj5Lbw)
+
+![Open Air Bearings Demo 1](https://img.youtube.com/vi/c7A6QDj5Lbw/0.jpg)](https://www.youtube.com/watch?v=c7A6QDj5Lbw)
 
 # Simulation for planar air bearing pads
 
@@ -25,6 +26,7 @@ Pressure distribution, relative flow, lift force plot:
 # DIY Glas Airbearing pads
 
 coming soon...
+
 ![Open Air Bearings Demo 2](images/the_air_bearing_stage_demo.gif)
 
 # Ways to contribute ?
