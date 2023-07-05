@@ -10,7 +10,7 @@ The simulation folder contains a small and simple python programs to simulate pl
 4. A animated gif of the pressure distribution for varying gap heights
 
 ![Simulation output 1-3](simulation/example/summary_design1h_38x18_60u.png)
-![Simulation output 4](simulation/example/summary_design1h_38x18_60u.gif)
+![Simulation output 4](simulation/example/pressure_design1h_38x18_60u.gif)
 
 # DIY Glas Airbearing pads
 
