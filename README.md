@@ -1,7 +1,8 @@
+![Logo](open_air_bearings_logo.jpg)
 # Open Air Bearings
 Welcome to the Open Air Bearings repository! This repository provides techniques and simulation software for air bearings. Open air bearings are mechanical devices that support components using a thin film of air, eliminating the need for solid contact and reducing friction to almost zero.
 
-# Simulation
+# Simulation for planar air bearing pads
 
 The simulation folder contains a small and simple python programs to simulate planar air bearings with grooves and pressure inlets from a given design provided as an image file and outputs:
 1. A plot of the lift force vs gap height, allowing to optimize the design for stiffness and to select an optimal preload value.
@@ -11,10 +12,10 @@ The simulation folder contains a small and simple python programs to simulate pl
 
 The simulation uses a simple pipe network model were neighbouring pixels are connected via pipes with flow rate resitrictions derived from the input design. A solution is then computed by solving the associated poisson equation.
 
-Pressure distribution animiation:
+Pressure distribution for varying gap heights animiation:
 ![Simulation output 2](simulation/example/pressure_design1h_38x18_60u.gif)
 
-Pressure distribution, lift relative flow, lift force plot:
+Pressure distribution, relative flow, lift force plot:
 ![Simulation output 1](simulation/example/summary_design1h_38x18_60u.png)
 
 
