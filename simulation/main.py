@@ -184,6 +184,8 @@ def evaluate_design(design_filename, mm_per_pixel, inlet_pressure_bar):
     :param mm_per_pixel: pixel size in mm for the design
     :param inlet_pressure_bar: pressure on inlet ports
     """
+    inlet_flow_coefficient = 1e-8
+
     # load design image
     directory, filename = os.path.split(design_filename)
     design_name, _ = os.path.splitext(filename)
@@ -212,7 +214,7 @@ def evaluate_design(design_filename, mm_per_pixel, inlet_pressure_bar):
     for i in range(30):
         # compute flow coeefficients and add inlet restrictions around inlet points
         flow_coefficients = compute_flow_coefficients(gap_heights_m+h, dyn_viscosity=1.825e-5)
-        flow_coefficients[grid_shape[1]//2-2:grid_shape[1]//2+3, grid_shape[0]//2-2:grid_shape[0]//2+3] = 1e-7
+        flow_coefficients[inlet_borer_mask] = inlet_flow_coefficient
 
         # compute pressure distribution from flow coefficients
         pressure = compute_pressure_distribution(flow_coefficients, pressure_bc)
@@ -238,7 +240,7 @@ def evaluate_design(design_filename, mm_per_pixel, inlet_pressure_bar):
     # plot summary
     h = 5*1e-6   # gap hight for summary
     flow_coefficients = compute_flow_coefficients(gap_heights_m + h, dyn_viscosity=1.825e-5)
-    flow_coefficients[inlet_borer_mask] = 1e-7
+    flow_coefficients[inlet_borer_mask] = inlet_flow_coefficient
     pressure = compute_pressure_distribution(flow_coefficients, pressure_bc)
     flow = compute_relative_flow(pressure, flow_coefficients)
 
@@ -262,7 +264,9 @@ def evaluate_design(design_filename, mm_per_pixel, inlet_pressure_bar):
 
 def main():
     # specify your design here, output will be in same folder as design file
-    evaluate_design('./designs/design1h_38x18_60u.png', px_per_mm=0.1, inlet_pressure_bar=0.5)
+    evaluate_design('./examples/simple_single_inlet.png', mm_per_pixel=0.1, inlet_pressure_bar=0.5)
+    evaluate_design('./examples/simple_multi_inlet.png', mm_per_pixel=0.1, inlet_pressure_bar=0.5)
+    evaluate_design('./examples/design1h_38x18_60u.png', mm_per_pixel=0.1, inlet_pressure_bar=0.5)
 
 
 if __name__ == "__main__":

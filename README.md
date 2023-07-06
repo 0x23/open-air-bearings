@@ -17,10 +17,10 @@ The simulation folder contains a small and simple python programs to simulate pl
 The simulation uses a simple pipe network model were neighbouring pixels are connected via pipes with flow rate resitrictions derived from the input design. A solution is then computed by solving the associated poisson equation.
 
 Pressure distribution for varying gap heights animiation:
-![Simulation output 2](simulation/example/pressure_design1h_38x18_60u.gif)
+![Simulation output 2](simulation/examples/pressure_design1h_38x18_60u.gif)
 
 Pressure distribution, relative flow, lift force plot:
-![Simulation output 1](simulation/example/summary_design1h_38x18_60u.png)
+![Simulation output 1](simulation/examples/summary_design1h_38x18_60u.png)
 
 
 # DIY glas air bearing pads
