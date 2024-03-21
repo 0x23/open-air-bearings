@@ -2,10 +2,6 @@
 
 Welcome to the Open Air Bearings repository! This project provides techniques to build and simulate air bearings without expensive tools. Air bearings are mechanical devices that support components using a thin film of air, eliminating the need for solid contact and reducing friction to almost zero.
 
-Here you can see a working prototype in action:
-
-[![Open Air Bearings Demo 1](https://img.youtube.com/vi/c7A6QDj5Lbw/0.jpg)](https://www.youtube.com/watch?v=c7A6QDj5Lbw)
-
 # Simulation for planar air bearing pads
 
 The simulation folder contains a small and simple python programs to simulate planar air bearings with grooves and pressure inlets from a given design provided as an image file and outputs:
