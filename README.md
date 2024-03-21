@@ -29,6 +29,6 @@ coming soon...
 
 1. Try it out the simulator or build yourself some air bearings and give feedback
 2. If you know fluid mechanics, please check the simulation for correctness
-3. Write documentation and tutrials that explain hte usage of the simulation
+3. Write documentation and tutrials that explain the usage of the simulation
 
 
