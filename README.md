@@ -4,7 +4,7 @@ Welcome to the Open Air Bearings repository! This project provides techniques to
 
 # Planar Steel-Epoxy air bearing pads
 
-In [a relative link](/steel_epoxy_pads/3d_printed_tools) you can find the CAD files for the 3D printed tools used to build the steel-epoxy air bearing pads. Below you find a quick overview:
+In [steel_epoxy_pads](/steel_epoxy_pads) you can find the CAD files for the 3D printed tools used to build the steel-epoxy air bearing pads. Below you find a quick overview:
 
 ![3D-Printed Tools](steel_epoxy_pads/3d_printed_tools/tool_overview.jpg)
 
