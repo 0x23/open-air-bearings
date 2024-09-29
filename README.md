@@ -2,6 +2,9 @@
 
 Welcome to the Open Air Bearings repository! This project provides techniques to build and simulate air bearings without expensive tools. Air bearings are mechanical devices that support components using a thin film of air, eliminating the need for solid contact and reducing friction to almost zero.
 
+# Planar Epoxy-Steel air bearing pads
+
+
 # Simulation for planar air bearing pads
 
 The simulation folder contains a small and simple python programs to simulate planar air bearings with grooves and pressure inlets from a given design provided as an image file and outputs:
@@ -20,8 +23,6 @@ Pressure distribution, relative flow, lift force plot:
 
 
 # DIY glas air bearing pads
-
-coming soon...
 
 ![Open Air Bearings Demo 2](images/the_air_bearing_stage_demo.gif)
 
