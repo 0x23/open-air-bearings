@@ -2,8 +2,11 @@
 
 Welcome to the Open Air Bearings repository! This project provides techniques to build and simulate air bearings without expensive tools. Air bearings are mechanical devices that support components using a thin film of air, eliminating the need for solid contact and reducing friction to almost zero.
 
-# Planar Epoxy-Steel air bearing pads
+# Planar Steel-Epoxy air bearing pads
 
+In [a relative link](/steel_epoxy_pads/3d_printed_tools) you can find the CAD files for the 3D printed tools used to build the steel-epoxy air bearing pads. Below you find a quick overview:
+
+![3D-Printed Tools](steel_epoxy_pads/3d_printed_tools/tool_overview.jpg)
 
 # Simulation for planar air bearing pads
 
